@@ -9,7 +9,7 @@ class Item:
     isCompleted: bool = False
 
 
-def add(text):
+def add(text, date):
     text = text.replace('b', 'bbb').replace('B', 'Bbb')
     items.append(Item(text))
 
