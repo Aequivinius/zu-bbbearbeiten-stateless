@@ -22,4 +22,5 @@ def add():
 @app.route("/update/<int:index>")
 def update(index):
     helper.update(index)
-    return redirect(url_for("index"))
+    return redirect(url_for("index")) 
+    
